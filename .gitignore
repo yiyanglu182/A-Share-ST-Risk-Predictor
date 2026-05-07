@@ -1,0 +1,25 @@
+# ── iFind 原始数据（不公开）────────────────
+data/raw/
+
+# ── 全A股财务数据（5MB，来源iFind）──────────
+data/processed/02_financials_long.csv
+
+# ── Python 缓存 ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter 检查点 ────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── 虚拟环境 ──────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Mac 系统文件 ──────────────────────────
+.DS_Store
+
+# ── VS Code ───────────────────────────────
+.vscode/
