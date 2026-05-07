@@ -80,6 +80,8 @@ Train on 2021+2022 cohorts → Test on 2023 cohort (time-based split, no data le
 
 **Recall of 87.3%** — the model correctly flags 87% of future ST companies two years early.
 
+Note: Test metrics are computed on a 1:1 matched test set. Under the real A-share ST base rate (~1-2%), expected precision in production deployment would be substantially lower. A larger-scale evaluation with unmatched controls is left to future work.
+
 ---
 
 ## Top Risk Drivers (SHAP)
